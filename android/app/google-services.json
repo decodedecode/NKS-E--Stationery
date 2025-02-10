@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "202640147173",
+    "project_id": "nkbs-bbf03",
+    "storage_bucket": "nkbs-bbf03.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202640147173:android:4c4ebf63bf3907ab82ca0c",
+        "android_client_info": {
+          "package_name": "com.example.nks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202640147173-g6vlq7082mu0vvngs7n7tdhuph78r8nt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nks",
+            "certificate_hash": "6d03e07da7a6d4e914f04acdbf50d8092e845665"
+          }
+        },
+        {
+          "client_id": "202640147173-8u6ibg3e9ru512lqvohikvjb0d4baho6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFIxkzaFCCKPWZno1HHpz7az7gRdqPtjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202640147173-8u6ibg3e9ru512lqvohikvjb0d4baho6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

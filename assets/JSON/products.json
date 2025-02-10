@@ -1,0 +1,702 @@
+{
+  "products": {
+    "Sports": {
+      "items": {
+        "VickyTennisBall": {
+          "name": "Vicky Tennis Ball",
+          "price": 80,
+          "stock": 20,
+          "type": "Tennis Ball",
+          "brand": "Vicky",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "High-quality tennis balls ideal for both casual and competitive matches. Designed for optimal bounce and durability, these balls provide a consistent feel and performance. Perfect for players of all skill levels who want to enjoy a reliable game."
+        },
+        "CoscoCricketBat": {
+          "name": "Cosco Cricket Bat",
+          "price": 200,
+          "stock": 15,
+          "type": "Cricket Bat",
+          "brand": "Cosco",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "Durable and lightweight cricket bat for all skill levels. Made from premium quality materials, it offers a perfect balance of power and control. Ideal for casual play and competitive matches alike, ensuring superior performance every time."
+        },
+        "YonexShuttlecock": {
+          "name": "Yonex Shuttlecock",
+          "price": 50,
+          "stock": 50,
+          "type": "Shuttlecock",
+          "brand": "Yonex",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "High-performance shuttlecocks designed for smooth flight and durability. Made to maintain consistency even in high-intensity games, these are ideal for both indoor and outdoor play. Trusted by players for their exceptional quality and reliability."
+        },
+        "WilsonTennisRacket": {
+          "name": "Wilson Tennis Racket",
+          "price": 1500,
+          "stock": 10,
+          "type": "Tennis Racket",
+          "brand": "Wilson",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "Premium tennis racket providing excellent power and control. Its lightweight design and advanced stringing technology make it a favorite for both amateur and professional players. Crafted for precision and comfort, this racket enhances your gameplay."
+        },
+        "KookaburraCricketBall": {
+          "name": "Kookaburra Cricket Ball",
+          "price": 250,
+          "stock": 40,
+          "type": "Cricket Ball",
+          "brand": "Kookaburra",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "Professional-grade cricket ball designed for durability and performance. Crafted with high-quality leather, it offers excellent seam and swing for bowlers. Its robust construction ensures it withstands intense matches and retains its shape."
+        }
+      }
+    },
+    "Books": {
+      "items": {
+        "5thPA.M.EM": {
+          "name": "Pariksha Adhyayan 5th Maths EM",
+          "price": null,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "NCERT",
+          "image": "",
+          "description": "Comprehensive guide for Class 5 Mathematics (English Medium)."
+        },
+        "5thPA.EVS.EM": {
+          "name": "Pariksha Adhyayan 5th Environmental Science EM",
+          "price": null,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "NCERT",
+          "image": "",
+          "description": "Detailed study material for Environmental Science (English Medium)."
+        },
+        "5thPA.H.EM": {
+          "name": "Pariksha Adhyayan 5th Hindi EM",
+          "price": null,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "NCERT",
+          "image": "",
+          "description": "Complete syllabus coverage for Hindi (English Medium)."
+        },
+        "5thPA.EN.EM": {
+          "name": "Pariksha Adhyayan 5th English EM",
+          "price": null,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "NCERT",
+          "image": "",
+          "description": "English subject guide for English Medium students."
+        },
+        "5thPA.G.HM": {
+          "name": "Pariksha Adhyayan 5th Ganit HM",
+          "price": null,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "NCERT",
+          "image": "",
+          "description": "Comprehensive guide for Class 5 Maths (Hindi Medium)."
+        },
+        "5thPA.P.HM": {
+          "name": "Pariksha Adhyayan 5th Paryavarahn HM",
+          "price": null,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "NCERT",
+          "image": "",
+          "description": "Detailed study material for Environmental Science (Hindi Medium)."
+        },
+        "5thPA.H.HM": {
+          "name": "Pariksha Adhyayan 5th Hindi HM",
+          "price": null,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "NCERT",
+          "image": "",
+          "description": "Complete syllabus coverage for Hindi (Hindi Medium)."
+        },
+        "5thPA.EN.HM": {
+          "name": "Pariksha Adhyayan 5th English HM",
+          "price": null,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "NCERT",
+          "image": "",
+          "description": "English subject guide for Hindi Medium students."
+        },
+        "8thPA.M.EM": {
+          "name": "Pariksha Adhyayan 8th Maths EM",
+          "price": null,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "NCERT",
+          "image": "",
+          "description": "Comprehensive guide for Class 8 Mathematics (English Medium)."
+        },
+        "8thPA.Sci.EM": {
+          "name": "Pariksha Adhyayan 8th Science EM",
+          "price": null,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "NCERT",
+          "image": "",
+          "description": "Comprehensive guide for Class 8 Science (English Medium)."
+        },
+        "8thPA.H.EM": {
+          "name": "Pariksha Adhyayan 8th Hindi EM",
+          "price": null,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "NCERT",
+          "image": "",
+          "description": "Comprehensive guide for Class 8 Hindi (English Medium)."
+        },
+        "8thPA.E.EM": {
+          "name": "Pariksha Adhyayan 8th English EM",
+          "price": null,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "NCERT",
+          "image": "",
+          "description": "Comprehensive guide for Class 8 English (English Medium)."
+        },
+        "8thPA.SS.EM": {
+          "name": "Pariksha Adhyayan 8th Social Science EM",
+          "price": null,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "NCERT",
+          "image": "",
+          "description": "Comprehensive guide for Class 8 Social Science (English Medium)."
+        },
+        "8thPA.Sk.EM": {
+          "name": "Pariksha Adhyayan 8th Sanskrit EM",
+          "price": null,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "NCERT",
+          "image": "",
+          "description": "Comprehensive guide for Class 8 Sanskrit (English Medium)."
+        },
+        "8thPA.G.HM": {
+          "name": "Pariksha Adhyayan 8th Ganit HM",
+          "price": null,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "NCERT",
+          "image": "",
+          "description": "Comprehensive guide for Class 8 Ganit (Hindi Medium)."
+        },
+        "8thPA.V.HM": {
+          "name": "Pariksha Adhyayan 8th Vigyan HM",
+          "price": null,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "NCERT",
+          "image": "",
+          "description": "Comprehensive guide for Class 8 Vigyan (Hindi Medium)."
+        },
+        "8thPA.H.HM": {
+          "name": "Pariksha Adhyayan 8th Hindi HM",
+          "price": null,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "NCERT",
+          "image": "",
+          "description": "Comprehensive guide for Class 8 Hindi (Hindi Medium)."
+        },
+        "8thPA.E.HM": {
+          "name": "Pariksha Adhyayan 8th English HM",
+          "price": null,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "NCERT",
+          "image": "",
+          "description": "Comprehensive guide for Class 8 English (Hindi Medium)."
+        },
+        "8thPA.SS.HM": {
+          "name": "Pariksha Adhyayan 8th Samajik Vigyan HM",
+          "price": null,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "NCERT",
+          "image": "",
+          "description": "Comprehensive guide for Class 8 Samajik Vigyan (Hindi Medium)."
+        },
+        "8thPA.Sk.HM": {
+          "name": "Pariksha Adhyayan 8th Sanskrit HM",
+          "price": null,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "NCERT",
+          "image": "",
+          "description": "Comprehensive guide for Class 8 Sanskrit (Hindi Medium)."
+        },
+        "10thPA.M.EM": {
+          "name": "Pariksha Adhyayan 10th Maths EM",
+          "price": null,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "Shivalal",
+          "image": "https://i.pinimg.com/736x/d3/13/07/d313079fdb8427eb61232e7310f38ec1.jpg",
+          "description": "Comprehensive guide for Class 10 Mathematics (English Medium)."
+        },
+        "10thPA.Sci.EM": {
+          "name": "Pariksha Adhyayan 10th Science EM",
+          "price": null,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "Shivalal",
+          "image": "https://i.pinimg.com/736x/d3/13/07/d313079fdb8427eb61232e7310f38ec1.jpg",
+          "description": "Comprehensive guide for Class 10 Science (English Medium)."
+        },
+        "10thPA.H.EM": {
+          "name": "Pariksha Adhyayan 10th Hindi EM",
+          "price": 95,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "Shivalal",
+          "image": "https://i.pinimg.com/736x/d3/13/07/d313079fdb8427eb61232e7310f38ec1.jpg",
+          "description": "Comprehensive guide for Class 10 Hindi (English Medium)."
+        },
+        "10thPA.E.EM": {
+          "name": "Pariksha Adhyayan 10th English EM",
+          "price": 95,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "Shivalal",
+          "image": "https://i.pinimg.com/736x/d3/13/07/d313079fdb8427eb61232e7310f38ec1.jpg",
+          "description": "Comprehensive guide for Class 10 English (English Medium)."
+        },
+        "10thPA.SS.EM": {
+          "name": "Pariksha Adhyayan 10th Social Science EM",
+          "price": null,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "Shivalal",
+          "image": "https://i.pinimg.com/736x/d3/13/07/d313079fdb8427eb61232e7310f38ec1.jpg",
+          "description": "Comprehensive guide for Class 10 Social Science (English Medium)."
+        },
+        "10thPA.San.EM": {
+          "name": "Pariksha Adhyayan 10th Sanskrit EM",
+          "price": 65,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "Shivalal",
+          "image": "https://i.pinimg.com/736x/d3/13/07/d313079fdb8427eb61232e7310f38ec1.jpg",
+          "description": "Comprehensive guide for Class 10 Sanskrit (English Medium)."
+        },
+        "10thPA.M.HM": {
+          "name": "Pariksha Adhyayan 10th Ganit HM",
+          "price": 90,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "Shivalal",
+          "image": "https://i.pinimg.com/736x/d3/13/07/d313079fdb8427eb61232e7310f38ec1.jpg",
+          "description": "Comprehensive guide for Class 10 Ganit (Hindi Medium)."
+        },
+        "10thPA.Sci.HM": {
+          "name": "Pariksha Adhyayan 10th Vigyan HM",
+          "price": 85,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "Shivalal",
+          "image": "https://i.pinimg.com/736x/d3/13/07/d313079fdb8427eb61232e7310f38ec1.jpg",
+          "description": "Comprehensive guide for Class 10 Vigyan (Hindi Medium)."
+        },
+        "10thPA.H.HM": {
+          "name": "Pariksha Adhyayan 10th Hindi HM",
+          "price": 95,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "Shivalal",
+          "image": "https://i.pinimg.com/736x/d3/13/07/d313079fdb8427eb61232e7310f38ec1.jpg",
+          "description": "Comprehensive guide for Class 10 Hindi (Hindi Medium)."
+        },
+        "10thPA.E.HM": {
+          "name": "Pariksha Adhyayan 10th English HM",
+          "price": 95,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "Shivalal",
+          "image": "https://i.pinimg.com/736x/d3/13/07/d313079fdb8427eb61232e7310f38ec1.jpg",
+          "description": "Comprehensive guide for Class 10 English (Hindi Medium)."
+        },
+        "10thPA.SS.HM": {
+          "name": "Pariksha Adhyayan 10th Samajik Vigyan HM",
+          "price": 95,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "Shivalal",
+          "image": "https://i.pinimg.com/736x/d3/13/07/d313079fdb8427eb61232e7310f38ec1.jpg",
+          "description": "Comprehensive guide for Class 10 Samajik Vigyan (Hindi Medium)."
+        },
+        "10thPA.San.HM": {
+          "name": "Pariksha Adhyayan 10th Sanskrit HM",
+          "price": 65,
+          "stock": 30,
+          "type": "Pariksha Adhyayan",
+          "brand": "Shivalal",
+          "image": "https://i.pinimg.com/736x/d3/13/07/d313079fdb8427eb61232e7310f38ec1.jpg",
+          "description": "Comprehensive guide for Class 10 Sanskrit (Hindi Medium)."
+        }
+        
+        
+      }
+    },
+    "Toys": {
+      "items": {
+        "ToyCar": {
+          "name": "Toy Car",
+          "price": 300,
+          "stock": 25,
+          "type": "Vehicle Toy",
+          "brand": "Hot Wheels",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "Miniature car model that kids love to race and collect. Designed with intricate details and vibrant colors, it's perfect for hours of fun. A must-have for young car enthusiasts and collectors."
+        },
+        "DollHouse": {
+          "name": "Doll House",
+          "price": 450,
+          "stock": 10,
+          "type": "House Toy",
+          "brand": "Barbie",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "Beautifully detailed dollhouse perfect for imaginative play. Includes accessories and furniture, creating a realistic miniature home. Encourages creativity and storytelling in children, making it a delightful gift."
+        },
+        "ActionFigures": {
+          "name": "Action Figures",
+          "price": 200,
+          "stock": 35,
+          "type": "Figure Toy",
+          "brand": "Hasbro",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "Set of detailed action figures for exciting pretend play. Designed for durability, these figures feature movable joints for dynamic poses. Perfect for sparking creativity and storytelling in kids."
+        },
+        "LegoBuildingSet": {
+          "name": "Lego Building Set",
+          "price": 800,
+          "stock": 15,
+          "type": "Building Toy",
+          "brand": "Lego",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "Classic Lego set for creative building and endless fun. Includes versatile pieces for crafting various structures and models. Encourages problem-solving, engineering, and imaginative play in children."
+        }
+      }
+    },
+    "Arts": {
+      "items": {
+        "Canvas": {
+          "name": "Canvas",
+          "price": 250,
+          "stock": 15,
+          "type": "Arts and Coloring Supplies",
+          "brand": "Winsor & Newton",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "High-quality canvas for painting and other artistic projects. Suitable for use with various paints such as acrylic, oil, or watercolors. Its sturdy surface ensures durability and supports vibrant artwork creation."
+        },
+        "PaintBrushSet": {
+          "name": "Paint Brush Set",
+          "price": 100,
+          "stock": 40,
+          "type": "Brush Set",
+          "brand": "Artify",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "Set of professional paint brushes suitable for various media. Crafted with durable bristles for precision and smooth application. Ideal for artists of all levels, from beginners to professionals."
+        },
+        "AcrylicPaintSet": {
+          "name": "Acrylic Paint Set",
+          "price": 500,
+          "stock": 30,
+          "type": "Paint Set",
+          "brand": "Liquitex",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "Vibrant acrylic paint set for artists and hobbyists alike. The colors are rich, blendable, and offer excellent coverage. Perfect for various surfaces including canvas, wood, and more."
+        },
+        "SketchBook": {
+          "name": "Sketch Book",
+          "price": 150,
+          "stock": 50,
+          "type": "Sketching Supplies",
+          "brand": "Moleskine",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "Premium sketchbook ideal for artists and designers. Its thick, smooth pages are perfect for pencil, ink, and light watercolor work. A must-have for capturing creative ideas on the go."
+        }
+      }
+    },
+    "Copier Supplies": {
+      "items": {
+        "PrinterInkCartridge": {
+          "name": "Printer Ink Cartridge",
+          "price": 500,
+          "stock": 25,
+          "type": "Printer Supplies",
+          "brand": "HP",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "Reliable ink cartridge compatible with HP printers. Provides vibrant and long-lasting prints for documents and photos. Easy to install and designed for smooth, consistent performance."
+        },
+        "A4PaperPack": {
+          "name": "A4 Paper Pack",
+          "price": 300,
+          "stock": 50,
+          "type": "Paper Pack",
+          "brand": "Canon",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "Pack of high-quality A4 paper for everyday printing needs. Ideal for home, office, or school use with a smooth finish. Ensures clear and sharp printouts for all your projects."
+        },
+        "LaserJetToner": {
+          "name": "LaserJet Toner",
+          "price": 1200,
+          "stock": 10,
+          "type": "Printer Supplies",
+          "brand": "Brother",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "High-yield toner cartridge designed for Brother LaserJet printers. Produces crisp and professional-quality prints, even for high-volume use. A dependable choice for maintaining efficient workflows."
+        },
+        "InkjetPrinterCartridge": {
+          "name": "Inkjet Printer Cartridge",
+          "price": 400,
+          "stock": 40,
+          "type": "Printer Supplies",
+          "brand": "Epson",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "Premium inkjet cartridge for high-quality prints. Engineered for vibrant color and sharp text reproduction. Compatible with a wide range of Epson printers for hassle-free printing."
+        }
+      }
+    },
+    "Diaries": {
+      "items": {
+        "LeatherBoundDiary": {
+          "name": "Leather Bound Diary",
+          "price": 250,
+          "stock": 20,
+          "type": "Diary",
+          "brand": "Moleskine",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "This elegant leather-bound diary features premium paper, making it perfect for journaling, planning, or note-taking. Its durable leather cover ensures long-lasting use."
+        },
+        "PocketNotebook": {
+          "name": "Pocket Notebook",
+          "price": 120,
+          "stock": 60,
+          "type": "Notebook",
+          "brand": "Paperblanks",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "A compact and portable notebook designed for on-the-go ideas and quick notes. Its lightweight build makes it easy to carry anywhere."
+        },
+        "HardCoverDiary": {
+          "name": "Hard Cover Diary",
+          "price": 180,
+          "stock": 35,
+          "type": "Diary",
+          "brand": "Leuchtturm1917",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "This sturdy hard cover diary is ideal for daily journaling or planning. With its classic design, it suits both professional and personal use."
+        },
+        "SpiralNotebook": {
+          "name": "Spiral Notebook",
+          "price": 60,
+          "stock": 100,
+          "type": "Notebook",
+          "brand": "Oxford",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "Durable and versatile, this spiral notebook is perfect for jotting down notes, creating lists, or brainstorming ideas. It offers convenience and practicality."
+        }
+      }
+    },
+    "Kids": {
+      "items": {
+        "ColoringBook": {
+          "name": "Coloring Book",
+          "price": 80,
+          "stock": 100,
+          "type": "Book",
+          "brand": "Crayola",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "A fun and creative coloring book filled with exciting pages that engage kids. Perfect for nurturing artistic skills and creativity."
+        },
+        "CrayonsPack": {
+          "name": "Crayons Pack",
+          "price": 50,
+          "stock": 75,
+          "type": "Color Supplies",
+          "brand": "Crayola",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "This vibrant crayon set offers a wide range of colors, perfect for drawings, art projects, and unleashing your child's imagination."
+        },
+        "PlayDohSet": {
+          "name": "Play-Doh Set",
+          "price": 250,
+          "stock": 20,
+          "type": "Craft Supplies",
+          "brand": "Hasbro",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "A colorful and moldable Play-Doh set that inspires creativity. Kids can shape, build, and explore endless possibilities with this fun craft toy."
+        },
+        "ToyBlocks": {
+          "name": "Toy Blocks",
+          "price": 350,
+          "stock": 50,
+          "type": "Building Toy",
+          "brand": "Lego",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "This building block set promotes creativity, fine motor skills, and problem-solving. Kids can build structures, vehicles, or anything they imagine."
+        }
+      }
+    },
+    "Note Copies": {
+      "items": {
+        "ClassNotes": {
+          "name": "Class Notes",
+          "price": 30,
+          "stock": 200,
+          "type": "Notebook",
+          "brand": "Classmate",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "An affordable notebook designed specifically for students, offering smooth pages for neat writing. Perfect for everyday classroom use."
+        },
+        "LinedNotebook": {
+          "name": "Lined Notebook",
+          "price": 60,
+          "stock": 120,
+          "type": "Notebook",
+          "brand": "Kores",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "This high-quality lined notebook provides a great writing experience. Ideal for taking notes, writing essays, or planning schedules."
+        },
+        "SpiralBoundNotebook": {
+          "name": "Spiral Bound Notebook",
+          "price": 80,
+          "stock": 90,
+          "type": "Notebook",
+          "brand": "Bilt Matrix",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "Convenient and easy to use, this spiral-bound notebook is perfect for students and professionals who value organized notes."
+        }
+      }
+    },
+    "Office Supplies": {
+      "items": {
+        "Stapler": {
+          "name": "Stapler",
+          "price": 120,
+          "stock": 45,
+          "type": "Office Tool",
+          "brand": "Kangaro",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "A sturdy and reliable stapler designed for both home and office use. Ensures smooth stapling without jamming issues."
+        },
+        "PaperClips": {
+          "name": "Paper Clips",
+          "price": 30,
+          "stock": 250,
+          "type": "Accessory",
+          "brand": "Esselte",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "This pack of durable paper clips is perfect for keeping your documents neat and organized. Ideal for office or school use."
+        },
+        "BinderClip": {
+          "name": "Binder Clip",
+          "price": 50,
+          "stock": 100,
+          "type": "Accessory",
+          "brand": "Fellowes",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "Strong and versatile binder clips designed to securely hold stacks of paper. A must-have accessory for work or home offices."
+        }
+      }
+    },
+    "Pens": {
+      "items": {
+        "GelPen": {
+          "name": "Gel Pen",
+          "price": 15,
+          "stock": 300,
+          "type": "Pen",
+          "brand": "Pilot",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "This gel pen delivers smooth writing with vivid ink colors. Its comfortable grip makes it perfect for long writing sessions."
+        },
+        "BallpointPen": {
+          "name": "Ballpoint Pen",
+          "price": 10,
+          "stock": 500,
+          "type": "Pen",
+          "brand": "Parker",
+          "image": "https://i.pinimg.com/control2/236x/f4/19/1a/f4191ab9ed5f279bc106be9416a9e146.jpg",
+          "description": "A reliable ballpoint pen designed for everyday writing. Its consistent ink flow ensures smooth and neat writing."
+        },
+        "FountainPen": {
+          "name": "Fountain Pen",
+          "price": 200,
+          "stock": 150,
+          "type": "Pen",
+          "brand": "Montblanc",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "Elegant fountain pen for smooth and expressive writing."
+        }
+      }
+    },
+    "School Supplies": {
+      "items": {
+        "GeometryBox": {
+          "name": "Geometry Box",
+          "price": 90,
+          "stock": 60,
+          "type": "Math Tool",
+          "brand": "Natraj",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "Complete geometry set for accurate drawing and measurements."
+        },
+        "SchoolBag": {
+          "name": "School Bag",
+          "price": 450,
+          "stock": 30,
+          "type": "Bag",
+          "brand": "American Tourister",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "Durable and spacious school bag with multiple compartments."
+        },
+        "PencilCase": {
+          "name": "Pencil Case",
+          "price": 120,
+          "stock": 100,
+          "type": "School Accessory",
+          "brand": "Sparx",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "Compact pencil case to store pens, pencils, and other stationery."
+        }
+      }
+    },
+    "Stationery Supplies": {
+      "items": {
+        "Scissors": {
+          "name": "Scissors",
+          "price": 40,
+          "stock": 80,
+          "type": "Cutting Tool",
+          "brand": "Fiskars",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "Sharp and durable scissors suitable for various uses."
+        },
+        "StickyNotes": {
+          "name": "Sticky Notes",
+          "price": 20,
+          "stock": 150,
+          "type": "Notes",
+          "brand": "Post-it",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "Self-adhesive sticky notes perfect for reminders and marking."
+        },
+        "Markers": {
+          "name": "Markers",
+          "price": 80,
+          "stock": 70,
+          "type": "Coloring Supplies",
+          "brand": "Sharpie",
+          "image": "https://i.pinimg.com/736x/07/79/a6/0779a6952a6396b43e18487def458a9f.jpg",
+          "description": "Permanent markers with bold and vibrant colors."
+        }
+      }
+    }
+  }
+}
