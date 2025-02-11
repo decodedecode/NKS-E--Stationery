@@ -46,7 +46,7 @@ class PayGateway {
   {
     var options = {
 
-      'key': 'rzp_test_nI6zv5Z4t7gLbF',
+      'key': 'rzp_test_',
       'amount': amount,
       'name': name,
       'description': description,
