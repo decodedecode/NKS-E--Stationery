@@ -164,29 +164,6 @@ class _ShippingOptionsState extends State<ShippingOptions> {
   }
 }
 
-// Stream<int> cartTotalPriceStream() {
-//   final _auth = FirebaseAuth.instance;
-//   final _firestore = FirebaseFirestore.instance;
-//   final user = _auth.currentUser;
-//   if (user == null) return Stream.value(0);
-//
-//   return _firestore
-//       .collection('userCart')
-//       .doc(user.uid)
-//       .collection('cart')
-//       .snapshots()
-//       .map((snapshot) {
-//     int total = 0;
-//     for (var doc in snapshot.docs) {
-//       final data = doc.data();
-//       int price = int.parse(data['price'].replaceAll('₹', ''));
-//       int quantity = data['quantity'];
-//       total += price * quantity;
-//     }
-//
-//     return total + _selectedShippingPrice.toInt();
-//   });
-// }
 Stream<int> cartTotalPriceStream() {
   final _auth = FirebaseAuth.instance;
   final _firestore = FirebaseFirestore.instance;
@@ -209,7 +186,6 @@ Stream<int> cartTotalPriceStream() {
       total += price * quantity;
     }
 
-    // Ensure `_selectedShippingPrice` is retrieved dynamically
     return total + (_selectedShippingPrice ?? 0).toInt();
   });
 }
@@ -268,7 +244,7 @@ class _OrdersState extends State<Orders> {
   @override
   void initState() {
     super.initState();
-    _scrollController = ScrollController(); // Initialize the ScrollController
+    _scrollController = ScrollController(); 
     _loadAddressStatus();
     searchFocusNode = FocusNode();
   }
@@ -300,7 +276,6 @@ class _OrdersState extends State<Orders> {
       double? latitude;
       double? longitude;
 
-      // Location fetching logic (same as before)
       try {
         bool serviceEnabled = await Geolocator.isLocationServiceEnabled();
         if (!serviceEnabled) {
@@ -323,7 +298,6 @@ class _OrdersState extends State<Orders> {
         print('Location permissions or services not available: $e');
       }
 
-      // Get user details
       final user = _auth.currentUser;
       if (user == null) {
         throw Exception('User is not logged in.');
@@ -351,10 +325,9 @@ class _OrdersState extends State<Orders> {
         throw Exception('Cart is empty.');
       }
 
-      // final orderId = _firestore.collection('Orders').doc().id;
       final now = DateTime.now();
       final orderId = DateFormat(' hh:mm:ss a dd-MM-yyyy ').format(now);
-      final totalPrice = await cartTotalPriceStream().first;  // Gets the most recent total price
+      final totalPrice = await cartTotalPriceStream().first;  
 
 
       await _firestore.collection('Orders').doc(orderId).set({
@@ -398,15 +371,6 @@ class _OrdersState extends State<Orders> {
     });
   }
 
-  // void _updateAddress(Map<String, String> updatedAddress) async {
-  //   setState(() {
-  //     addressDetails = updatedAddress;
-  //     addressFilled = updatedAddress.values.every((field) => field.isNotEmpty);
-  //   });
-  //
-  //   final prefs = await SharedPreferences.getInstance();
-  //   prefs.setBool('addressFilled', addressFilled);
-  // }
 
   void _onPaymentSuccess(String paymentId) {
     createOrder('Prepaid');
